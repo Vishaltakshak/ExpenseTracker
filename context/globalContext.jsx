@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:1234/api/';
+const BASE_URL = 'https://expense-tracker-backend-indol-beta.vercel.app/api/';
 
 export const UseGlobalState = () => {
     const [incomes, setIncomes] = useState([]);
