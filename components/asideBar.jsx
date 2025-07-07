@@ -10,7 +10,7 @@ export const Aside= ({active, setActive,dashboard, ShowDashboard}) => {
         <div className='user'>
           <img src={icon} alt='userImg'/>
           <div className='info'>
-            <h2>vishal</h2>
+            <h2>Bhavya</h2>
             <p>Your Money</p>
           </div>
         </div>
